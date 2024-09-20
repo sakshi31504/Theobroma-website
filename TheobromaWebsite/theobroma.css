@@ -1,0 +1,314 @@
+.navBar .left{
+    margin-top: 30px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 17%;
+    border: 1px solid brown;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+    
+
+
+.navBar .right img{
+    height: 80px;
+    width: 230px;
+    margin-left: 0px;
+    position: fixed;
+    margin-top: 30px;
+    z-index: 1;
+
+}
+.disc h5{
+    color: brown;
+    font-size: 14px;
+    position: fixed;
+    text-align: center;
+    right: 500px;
+    width: 100%;
+}
+
+.navBar .left{
+    width: 83%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.left a{
+    color: rgb(180, 160, 104);
+}
+.left a:hover{
+    color: rgb(69, 200, 223);
+}
+.left .btn:hover{
+    background-color: rgb(231, 170, 181);
+    
+}
+.left .btn{
+    border: 1px solid brown;
+    border-radius: 20px;
+    background-color: rgb(194, 210, 233);
+}
+.info{
+    position: relative;
+    top: 800px;
+    text-align: center;
+
+}
+.info h2,h4{
+        font-family: "Macondo", cursive;
+        font-weight: 400;
+        font-style: normal; 
+        color: rgb(121, 107, 71);  
+}
+.block1{
+    position: absolute;
+    left: 50px;
+}
+.block2{
+    position: absolute;
+    right: 50px;
+}
+.info .btn{
+    position: absolute;
+    top: 700px;
+    border: 1px solid brown;
+    background-color: rgb(194, 210, 233);
+    border-radius: 10px;
+    left: 600px;
+    height: 40px;
+}
+.info .btn:hover{
+    background-color: pink;
+}
+.products{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(241, 194, 201, 0.815);
+    position: absolute;
+    top: 1600px;
+
+}
+.products img{
+    height: 300px;
+    width: 300px;
+
+
+}
+.products h1{
+    margin-top: 30px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(121, 107, 71);
+    position: absolute;
+    left: 600px;
+}
+.products .images{
+    height: 370px;
+    width: 98%;
+    background-color: white;
+    margin-top: 50px;
+    position: relative;
+    left: 15px;
+    right: 20px;
+}
+.images h3{
+    margin-top: 60px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(121, 107, 71);
+
+}
+.images .fonts{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: -55px;
+}
+.btns h4{
+    padding: 4px;
+}
+.btns{
+    border: 1px solid brown;
+    background-color: rgb(194, 210, 233);
+    height: 40px;
+    position: relative;
+    top: 50px;
+    left: 600px;
+    border-radius: 5px;
+}
+.btns:hover{
+    background-color: pink;
+}
+.qoutes h1{
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(121, 107, 71);
+    position: absolute;    
+    top: 800px;
+    left:140px;
+}
+.qoutes h5{
+    position: absolute;
+    top: 950px;
+    left: 140px;
+}
+.qoutesimg img{
+    position: absolute;
+    right: 70px;
+    height: 400px;
+    width: 500px;
+    top: 700px;
+}
+.tea{
+    position: relative;
+    top: 700px;
+    height: 600px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.teainfo h1 {
+        font-family: "Macondo", cursive;
+        font-weight: 400;
+        font-style: normal; 
+        color: rgb(121, 107, 71);
+        position: absolute;    
+        left: 800px;
+        top: 100px;
+    
+}
+.teainfo h5{
+    position: absolute;
+    left: 800px;
+    top: 250px;
+}
+.tea .btn{
+    border: 1px solid brown;
+    background-color: rgb(194, 210, 233);
+    border-radius: 10px;
+    height: 40px;
+    position: absolute;
+    top: 320px;
+    left: 800px;
+}
+.btn:hover{
+    background-color: pink;
+}
+.products1{
+    height: 900px;
+    width: 100%;
+    background-color: rgba(241, 194, 201, 0.815);
+    position: absolute;
+    top: 2200px;
+}
+.products1 img{
+    height: 300px;
+    width: 300px;
+
+}
+.products1 h1{
+    margin-top: 1px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(121, 107, 71);
+}
+.products1 .images1{
+    height: 750px;
+    width: 95%;
+    background-color: white;
+    margin-top: 20px;
+    position: absolute;
+    left: 30px;
+}
+.images1 h3{
+    margin-top: 60px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(121, 107, 71);
+}
+.fonts{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.images1 .fonts{
+    margin-left: 40px;
+}
+.colors{
+    height: 250px;
+    width: 100%;
+    background-color: rgba(241, 194, 201, 0.815);
+    position: absolute;
+    top: 900px;
+}
+.colors .btn{
+    border: 1px solid brown;
+    background-color: rgb(194, 210, 233);
+    height: 40px;
+    position: absolute;
+    left: 600px;
+    
+}
+.footmain{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(170, 216, 216);
+    position: relative;
+    border: 1px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 1050px;
+}
+.footmain .footlogo img{
+    margin-top: -100px;
+    height: 80px;
+    width: 200px;
+    
+} 
+/* .footmain .part2 p{
+    left: 300px;
+    top: 100px;
+    
+} 
+ .footmain .part3 p{
+    left:500px;
+    top: -140px;
+} 
+.footmain .part4 a{
+    left: 660px;
+    top: -430px;
+}  */
+/* .footmain .part5 {
+    position: relative;
+    left: 750px;
+    top: -480px;
+} */
+/* .footmain .part5 p{
+    position: relative;
+    left: 10px;
+    top: 10px;
+} */
+.footmain .part5 input{
+    background-color: rgb(170, 216, 216);
+}
+.footmain .btn{
+    border: 1px solid brown;
+    background-color: rgb(219, 224, 150);
+    border-radius: 10px;
+    height: 40px;
+    position: relative;
+    top: 320px;
+    margin-left: -580px;
+}
+.footmain .part5 .btn:hover{
+    background-color: rgb(238, 196, 227);
+}

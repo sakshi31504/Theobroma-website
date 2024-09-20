@@ -1,0 +1,209 @@
+.navBar .left{
+    margin-top: 30px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 17%;
+    border: 1px solid brown;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+    
+
+
+.navBar .right img{
+    height: 80px;
+    width: 230px;
+    margin-left: 0px;
+    position: fixed;
+    margin-top: 30px;
+    z-index: 1;
+
+}
+.disc h5{
+    color: brown;
+    font-size: 14px;
+    position: fixed;
+    text-align: center;
+    right: 500px;
+    width: 100%;
+}
+
+.navBar .left{
+    width: 83%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.left a{
+    color: rgb(180, 160, 104);
+}
+.left a:hover{
+    color: rgb(69, 200, 223);
+}
+.left .btn:hover{
+    background-color: rgb(231, 170, 181);
+    
+}
+.left .btn{
+    border: 1px solid brown;
+    border-radius: 20px;
+    background-color: rgb(194, 210, 233);
+}
+.cakes .cakeinfo{
+    position: absolute;
+    top: 110px;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(252, 227, 233);
+}
+
+.cakeinfo .font{
+    font-family: "Nerko One", cursive;
+  font-weight: 30;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  color: rgb(121, 107, 71);
+}
+.cakeinfo h5{
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    text-align: center;
+}
+.cakeinfo img{
+    position: absolute;   
+    top: 160px;
+    width: 100%;
+}
+.products{
+    height: 750px;
+    width: 100%;
+    background-color: rgb(220, 230, 250);
+    position: absolute;
+    top: 460px;
+}
+.products img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 10px;
+}
+.products h1{
+    margin-top: 40px;
+    font-family: "Macondo", cursive;
+    font-weight: 700;
+    font-style: normal; 
+    color: rgb(75, 58, 16);
+}
+.products .images{
+    height: 370px;
+    width: 96%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.fonts{
+    font-family: "Macondo", cursive;
+    font-weight: 700;
+    font-style: normal; 
+    color: rgb(68, 56, 24);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.bbtt .btn{
+    border: 1px solid #deb887;
+    background-color: rgb(238, 171, 171);
+    height: 40px;
+    position: relative;
+    left: 600px;
+    top: 20px;
+}
+.bbtt .btn:hover{
+    background-color: rgb(231, 189, 133);
+    transition: 0.5s;
+    color: brown;
+    position: relative;
+}
+
+.custom{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(250, 233, 237);
+    position: absolute;
+    top: 700px;
+}
+.custom h1{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.left img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    top: 120px;
+}
+.right h6{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+.order{
+    position: relative;
+    top: 440px;
+    background-color: rgb(221, 234, 238);
+    height: 250px;
+}
+.order .btn{
+    border: 1px solid burlywood;
+    background-color: rgb(238, 171, 171);
+    height: 40px;
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+.order .btn:hover{
+    background-color: burlywood;
+    transition: 0.5s;
+    color: brown;
+    position: relative;
+}
+.footmain{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(170, 216, 216);
+    position: relative;
+    border: 1px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 440px;
+}
+.footmain .footlogo img{
+    margin-top: -100px;
+    height: 80px;
+    width: 200px;
+    
+} 
+.footmain .part5 input{
+    background-color: rgb(170, 216, 216);
+}
+.footmain .btn{
+    border: 1px solid brown;
+    background-color: rgb(219, 224, 150);
+    border-radius: 10px;
+    height: 40px;
+    position: relative;
+    top: 320px;
+    margin-left: -580px;
+}
+.footmain .part5 .btn:hover{
+    background-color: rgb(238, 196, 227);
+}
